@@ -32,5 +32,16 @@ botoAlerta.addEventListener("click", function(){
 })
 
 //7 - Estructura: Crea un nou <li> amb createElement i afegeix-lo a una <ul> amb appendChild.
+let botoAfegir = document.getElementById("boto-afegir")
+let llista = document.getElementById("llista-compra")
+botoAfegir.addEventListener("click", function(){
+    let nouItem = document.createElement("li")
+    nouItem.textContent = "Nou producte"
+    llista.appendChild(nouItem)
+})
 
 //8 - Eliminació: Fes que un element desaparegui en fer-li clic usant el mètode remove().
+let elementEliminar = document.getElementById("element-eliminar")
+elementEliminar.addEventListener("click", function(){
+    elementEliminar.remove()
+})
