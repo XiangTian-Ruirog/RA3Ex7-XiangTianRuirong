@@ -19,9 +19,29 @@ caixa.addEventListener("click", function(){
 })
 
 //5 - Classes: Crea un botó que afegeixi/tregui la classe 'actiu' amb classList.toggle.
+let botoToggle = document.getElementById("boto-toggle")
+let textClasse = document.getElementById("text-classe")
+botoToggle.addEventListener("click", function(){
+    textClasse.classList.toggle("actiu")
+})
 
 //6 - Esdeveniments: Afegeix un addEventListener a un botó perquè tregui una alerta (alert).
+let botoAlerta = document.getElementById("boto-alerta")
+botoAlerta.addEventListener("click", function(){
+    alert("Hola! Has fet clic al boto.")
+})
 
 //7 - Estructura: Crea un nou <li> amb createElement i afegeix-lo a una <ul> amb appendChild.
+let botoAfegir = document.getElementById("boto-afegir")
+let llista = document.getElementById("llista-compra")
+botoAfegir.addEventListener("click", function(){
+    let nouItem = document.createElement("li")
+    nouItem.textContent = "Nou producte"
+    llista.appendChild(nouItem)
+})
 
 //8 - Eliminació: Fes que un element desaparegui en fer-li clic usant el mètode remove().
+let elementEliminar = document.getElementById("element-eliminar")
+elementEliminar.addEventListener("click", function(){
+    elementEliminar.remove()
+})
