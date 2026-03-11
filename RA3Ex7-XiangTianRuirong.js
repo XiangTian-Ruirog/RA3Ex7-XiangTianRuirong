@@ -5,6 +5,8 @@ let h = document.querySelector("#titol-principal")
 h.style.color="green"
 
 //2 - Contingut: Fes que un paràgraf <p> mostri "Hola Món" usant textContent.
+let p = document.getElementById("paragraf-hola")
+p.textContent="Hola Món"
 
 //3 - Atributs: Canvia la 'src' d'una imatge <img> usant setAttribute.
 
