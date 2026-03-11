@@ -157,13 +157,12 @@ button#boto-alerta:hover {
     border-bottom: none;
 }
 
-/* Text petit */
+/* Text */
 small {
     color: #7f8c8d;
     font-style: italic;
 }
-
-/* Estat focus per accessibilitat */
+/*accessibilitat*/
 button:focus, #element-eliminar:focus {
     outline: 3px solid #3498db;
     outline-offset: 2px;
