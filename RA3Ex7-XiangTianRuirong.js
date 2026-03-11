@@ -9,6 +9,8 @@ let p = document.getElementById("paragraf-hola")
 p.textContent="Hola Món"
 
 //3 - Atributs: Canvia la 'src' d'una imatge <img> usant setAttribute.
+let img = document.getElementById("imatge-canviant")
+img.setAttribute("src", "https://albertonate.com/wp-content/uploads/2022/10/Logo-ILBclaim.png")
 
 //4 - Estils: Canvia el color de fons (backgroundColor) d'un element en fer-li clic.
 
